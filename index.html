@@ -11,45 +11,57 @@
   </head>
   <body>
     <div class="container">
-      <div class="left">
-        <div class="logo">
-          <img src="./assets/odin-lined.png" alt="odin-lined-logo" />
-          <span>ODIN</span>
-        </div>
-      </div>
-      <div class="right">
-        <div class="hero">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            consequatur? Accusamus nemo excepturi error dolore quo, temporibus
-            optio eligendi neque dicta provident dolorem, in non quasi adipisci?
-            Laborum, reprehenderit facilis!
-          </p>
-          <span>Lorem ipsum dolor sit</span>
-        </div>
-        <form action="submit">
-          <span>Let's do this!</span>
-          <label for="first" class="form-label">first name</label>
-          <input type="text" name="first" id="first" />
-          <label for="last" class="form-label">last name</label>
-          <input type="text" name="last" id="last" />
-          <label for="email" class="form-label">email</label>
-          <input type="email" name="email" id="email" />
-          <label for="phone" class="form-label">phone number</label>
-          <input type="tel" name="phone" id="phone" />
-          <label for="password" class="form-label">password</label>
-          <input type="password" name="password" id="password" />
-          <label for="password-confirm" class="form-label"
-            >confirm password</label
+      <div class="row">
+        <div class="col-5 left-hero gx-0">
+          <div class="logo-section text-center">
+            <img
+              src="./assets/odin-lined.png"
+              alt="odin-lined-logo"
+              id="odin-logo" />
+            <span>ODIN</span>
+          </div>
+          <span class="photo-cred mb-2"
+            >Photo by
+            <a
+              href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA"
+              >Halie West </a
+            >on <a href="https://unsplash.com/">Unsplash</a></span
           >
-          <input
-            type="password"
-            name="password-confirm"
-            id="password-confirm" />
-        </form>
-        <div class="bottom">
-          <button class="btn btn-success">Create Account</button>
-          <span>Already have an account?<a href="#">Log in</a></span>
+        </div>
+        <div class="col-7">
+          <div class="hero">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+              consequatur? Accusamus nemo excepturi error dolore quo, temporibus
+              optio eligendi neque dicta provident dolorem, in non quasi
+              adipisci? Laborum, reprehenderit facilis!
+            </p>
+            <span>Lorem ipsum dolor sit</span>
+          </div>
+          <form action="submit">
+            <span>Let's do this!</span>
+            <label for="first" class="form-label">first name</label>
+            <input type="text" name="first" id="first" />
+            <label for="last" class="form-label">last name</label>
+            <input type="text" name="last" id="last" />
+            <label for="email" class="form-label">email</label>
+            <input type="email" name="email" id="email" />
+            <label for="phone" class="form-label">phone number</label>
+            <input type="tel" name="phone" id="phone" />
+            <label for="password" class="form-label">password</label>
+            <input type="password" name="password" id="password" />
+            <label for="password-confirm" class="form-label"
+              >confirm password</label
+            >
+            <input
+              type="password"
+              name="password-confirm"
+              id="password-confirm" />
+          </form>
+          <div class="bottom">
+            <button class="btn btn-success">Create Account</button>
+            <span>Already have an account?<a href="#">Log in</a></span>
+          </div>
         </div>
       </div>
     </div>
