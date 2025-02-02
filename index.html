@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
+      <div class="row sign-up-form">
         <div class="col-5 left-hero gx-0">
           <div class="logo-section text-center">
             <img
@@ -28,39 +28,76 @@
             >on <a href="https://unsplash.com/">Unsplash</a></span
           >
         </div>
-        <div class="col-7">
-          <div class="hero">
+        <div class="col-7 right-section gx-0">
+          <div class="hero py-5 ps-5 h3">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-              consequatur? Accusamus nemo excepturi error dolore quo, temporibus
-              optio eligendi neque dicta provident dolorem, in non quasi
-              adipisci? Laborum, reprehenderit facilis!
+              consequatur?
             </p>
             <span>Lorem ipsum dolor sit</span>
           </div>
-          <form action="submit">
-            <span>Let's do this!</span>
-            <label for="first" class="form-label">first name</label>
-            <input type="text" name="first" id="first" />
-            <label for="last" class="form-label">last name</label>
-            <input type="text" name="last" id="last" />
-            <label for="email" class="form-label">email</label>
-            <input type="email" name="email" id="email" />
-            <label for="phone" class="form-label">phone number</label>
-            <input type="tel" name="phone" id="phone" />
-            <label for="password" class="form-label">password</label>
-            <input type="password" name="password" id="password" />
-            <label for="password-confirm" class="form-label"
-              >confirm password</label
-            >
-            <input
-              type="password"
-              name="password-confirm"
-              id="password-confirm" />
-          </form>
-          <div class="bottom">
-            <button class="btn btn-success">Create Account</button>
-            <span>Already have an account?<a href="#">Log in</a></span>
+          <div class="form-section pt-3 ps-5">
+            <div class="h2">Let's do this!</div>
+            <form action="submit">
+              <div class="row">
+                <div class="form-group col-md-6 py-2">
+                  <label for="first" class="form-label">First Name</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="first"
+                    id="first" />
+                </div>
+                <div class="form-group col-md-6 py-2">
+                  <label for="last" class="form-label">Last Name</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="last"
+                    id="last" />
+                </div>
+                <div class="form-group col-md-6 py-2">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    class="form-control"
+                    type="email"
+                    name="email"
+                    id="email" />
+                </div>
+                <div class="form-group col-md-6 py-2">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input
+                    class="form-control"
+                    type="tel"
+                    name="phone"
+                    id="phone" />
+                </div>
+                <div class="form-group col-md-6 py-2">
+                  <label for="password" class="form-label">Password</label>
+                  <input
+                    class="form-control"
+                    type="password"
+                    name="password"
+                    id="password" />
+                </div>
+                <div class="form-group col-md-6 py-2">
+                  <label for="password-confirm" class="form-label"
+                    >Confirm Password</label
+                  >
+                  <input
+                    class="form-control"
+                    type="password"
+                    name="password-confirm"
+                    id="password-confirm" />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="bottom mt-3 py-5 px-5">
+            <button class="btn btn-lg btn-success mb-5 py-3 px-5">
+              Create Account
+            </button>
+            <div>Already have an account? <a href="#">Log in</a></div>
           </div>
         </div>
       </div>

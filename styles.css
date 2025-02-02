@@ -1,5 +1,5 @@
-.row {
-  height: 800px;
+.sign-up-form {
+  min-height: 800px;
 }
 
 .left-hero {
@@ -39,4 +39,9 @@
 
 .photo-cred a {
   color: white;
+}
+
+.hero,
+.bottom {
+  background-color: #f9fafb;
 }
